@@ -1,0 +1,206 @@
+.no-bullets {
+  list-style-type: none;
+  display: inline-block;
+}
+
+/*BACKGROUND COLOUR*/
+body { 
+background-color:#80AB99;
+font-family: 'Marcellus', serif, Verdana;
+} 
+
+/*H1COLOUR*/
+h1 { 
+color: #221B11;
+font-size: 40px; 
+font-weight: bold;
+font-family: 'Marcellus', serif, Verdana;
+text-align: center;
+} 
+
+/*H2COLOUR*/
+h2 { 
+color: #4F4832;
+font-size: 30px; 
+font-weight: bold;
+font-family: 'Marcellus', serif, Verdana;
+} 
+
+
+
+section{
+  justify-content: center;
+}
+
+
+/*Button 2*/
+.button2 {
+  float: left;
+  text-decoration: none;
+  background-color: #CACDBA;
+  color: black;
+  font-size:1.2rem;
+  font-weight:bold;
+  width:30%;
+  text-align:center;
+  border-radius: 50%;
+ margin:0 auto;
+  
+}
+
+.press{
+  width:80%;
+  margin: auto;
+}
+
+
+/*NAVIGATION BAR*/
+.nav {
+  list-style-type: none;
+  padding: 0;
+  width: 400px;
+  margin: auto;
+}
+
+.nav li {
+  float: left;
+}
+
+.nav li a {
+  display: block;
+  padding: 5px 10px;
+   text-decoration: none;
+  background-color: #CACDBA;
+  color: black;
+  font-size:1.4rem;
+  font-weight:bold;
+}
+
+.nav li a:hover {
+  background-color: #4F4832;
+  color: white;
+}
+
+#active {
+  background-color: #221B11;
+  color: white;
+}
+
+
+.column {
+  float: left;
+}
+
+.column.side {
+  width: 20%;
+}
+
+.column.middle {
+  width: 40%;
+}
+
+
+.column.full{
+   width: 100%; 
+}
+/*SECTION 1*/
+
+.sectionOne{
+  display: flex;
+  flex-wrap: wrap;
+}
+  
+
+/*DIV ESPLANATION*/
+.explanation{
+  display: flex;
+  flex-direction: column;
+}
+
+/*to put the image in the middle*/
+.explanation > img {
+align-self: center;
+height:600px;
+border-radius:15px;
+} 
+
+
+/*DIV CONTAINER*/
+.container{
+  width: 500px;
+}
+
+
+/* deleted when images are surrounded by links*/
+.container > img{
+  height: 400px;
+  display: block;
+  margin: auto;
+  border-radius: 6px;
+}
+
+.container > a > img{
+  height: 400px;
+  display: block;
+  margin: auto;
+  border-radius:6px;
+}
+
+/*to justify text for books*/
+.justify-text {
+  align-items: center;
+  padding:0 20px;
+  text-align: justify;
+}
+
+
+.title{
+  font-weight: bold;
+  font-size:20px;
+  color: #CACDBA;
+  text-align: center;
+}
+
+
+
+
+
+
+/*SECTION TWO*/
+
+.sectionTwo{
+ display: flex;
+ flex-wrap: wrap; 
+}
+
+
+
+/*QUIZ*/
+.luggage > img
+{
+border-radius:50%;
+border:5px solid #221B11;
+  /*To center a image*/
+display:block;
+margin:0 auto;
+
+}
+
+.questionf {
+  font-weight: bold;
+}
+
+/*QUIZ*/
+.luggage > img
+{
+border-radius:50%;
+border:5px solid #221B11;
+  /*To center a image*/
+display:block;
+margin:0 auto;
+
+}
+
+.questionf {
+  font-weight: bold;
+}
